@@ -12,5 +12,8 @@ and just-in-time manufacturing (JIT) that uses visual cues to trigger action. Th
 
 1. Clone the repository:
 
+https://github.com/stevsharp/KanbanBoard/blob/master/KanbanBoard/wwwroot/Screenshot%202024-03-01%20120823.png
+
+
 ```bash
 git clone https://github.com/stevsharp/KanbanBoard.git
