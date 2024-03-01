@@ -1,0 +1,23 @@
+﻿@page "/"
+
+<PageTitle>Kanban Board</PageTitle>
+
+<NewTask OnSubmit="AddTask"
+         @attributes="InputAttributes" />
+
+<div class="row">
+    <Dropzone Priority="TaskPriority.High"
+              TaskItems="TaskItems"
+              OnDrop="OnDrop"
+              OnStartDrag="OnStartDrag" />
+
+    <Dropzone Priority="TaskPriority.Mid"
+              TaskItems="TaskItems"
+              OnDrop="OnDrop"
+              OnStartDrag="OnStartDrag" />
+
+    <Dropzone Priority="TaskPriority.Low"
+              TaskItems="TaskItems"
+              OnDrop="OnDrop"
+              OnStartDrag="OnStartDrag" />
+</div>

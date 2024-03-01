@@ -1,0 +1,22 @@
+﻿<div class="row pt-3">
+    <div class="input-group mb-3">
+        <label class="input-group-text"
+               for="inputTask">
+            Task
+        </label>
+        
+        <input @ref="taskInput"
+               type="text"
+               id="inputTask"
+               class="form-control"
+               @bind-value="@taskName"
+               @attributes="InputParameters" />
+        
+               <button type="button"
+                class="btn btn-outline-secondary"
+                @onclick="OnClickHandlerAsync">
+            Add Task
+        </button>
+
+    </div>
+</div>
