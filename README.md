@@ -9,6 +9,7 @@ and just-in-time manufacturing (JIT) that uses visual cues to trigger action. Th
 - Organize tasks/cards into columns representing different stages of workflow
 - Drag-and-drop functionality for easy task management
 - Simple and intuitive user interface
+- One of the key features of KanbanBoard is its draggable user interface, which allows users to easily manage tasks/cards by dragging and dropping them between different columns representing different stages of workflow.
 
 1. Clone the repository:
 
